@@ -4,7 +4,6 @@ import { ShoppingMainComponent } from "./shopping-main.component";
 import { ShoppingRouterModule } from "./shopping-routing.module";
 import { ProductComponent } from "./product/product.component";
 import { ProductsDetailComponent } from "./productsdetail/productsdetail.component";
-import { ProductresolveserviceService } from './productresolveservice.service';
 
 @NgModule({
   imports: [CommonModule, ShoppingRouterModule],
@@ -13,6 +12,6 @@ import { ProductresolveserviceService } from './productresolveservice.service';
     ProductComponent,
     ProductsDetailComponent
   ],
-  providers: [ProductresolveserviceService]
+  providers: []
 })
 export class ShoppingModule {}
